@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SLTouchAuth_Example' do
+  pod 'SLTouchAuth', :path => '../'
+
+  target 'SLTouchAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
