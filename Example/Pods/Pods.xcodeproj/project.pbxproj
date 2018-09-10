@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53FF62B917EDB1327E0F080FF678CAA6 /* SLTouchAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBD483067E7AE3F8178F20E6C5E480A /* SLTouchAuth-dummy.m */; };
+		66643962769268FE6121246F0749103F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		6D3BA1DC05A5F08AD674A578E760537D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		78CF97FD34368E0BA1C33C14EE20E1E1 /* SLTouchAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB85743EDD6114CC12406D9EA3E375B /* SLTouchAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CD42E889B652AF1B679DDF6AA43F33D /* Pods-SLTouchAuth_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D96AE485B650F7FFAD1C917AFC8963A /* Pods-SLTouchAuth_Tests-dummy.m */; };
+		9FCB8CA276F8B6C406E7F59058C36437 /* Pods-SLTouchAuth_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9DB3EDDD82598DC90F1ED63341465E /* Pods-SLTouchAuth_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFC13692B26D0CB5C1D317A655C0DEC9 /* Pods-SLTouchAuth_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 019E801405F2FF182A8400AE8F4E7CA1 /* Pods-SLTouchAuth_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1AE1C8322D6F9E66F8CB22F9FC711C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E28CFD8AD9888AC1FCD65D9997FE70DE /* Pods-SLTouchAuth_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 881A3223B419166212EF716EFD9906C9 /* Pods-SLTouchAuth_Example-dummy.m */; };
+		EAE84FAED73BD67AB6F99671B034DB9A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E33C3B37DF1EA557FF57377DDDC87 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45A33CF613205E03AECA65BC1D4BB574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5E9BF5A3AF0380C4C78B5B31438EF2;
+			remoteInfo = "Pods-SLTouchAuth_Example";
+		};
+		BE9D08B9891E73E82BE9DFDCDF1CAF56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43993C6C5C7087E3ADDFBC6021AD549F;
+			remoteInfo = SLTouchAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C9DF35D477A3683B01DBFE9048E492 /* SLTouchAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLTouchAuth.modulemap; sourceTree = "<group>"; };
+		019E801405F2FF182A8400AE8F4E7CA1 /* Pods-SLTouchAuth_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLTouchAuth_Tests-umbrella.h"; sourceTree = "<group>"; };
+		047D1877251EEF14AC677329A8978D66 /* Pods_SLTouchAuth_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLTouchAuth_Tests.framework; path = "Pods-SLTouchAuth_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		060F0775CD4251204D926AAC2023E010 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		067CB507E8B544ED5B1D67EDADE09A52 /* Pods-SLTouchAuth_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLTouchAuth_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FD21C7F35189E67CEC34E832798D772 /* Pods-SLTouchAuth_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLTouchAuth_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		235AB12F0EE1792D7A3F98B402D7DC1B /* SLTouchAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLTouchAuth.xcconfig; sourceTree = "<group>"; };
+		34AE5355B9C7407F07B4A28371E5E356 /* Pods-SLTouchAuth_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLTouchAuth_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3576BC54D576305328DB22CCBC335E0B /* Pods-SLTouchAuth_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLTouchAuth_Example.release.xcconfig"; sourceTree = "<group>"; };
+		37ADEFBEB7AA4D5C7E6AE146330BADB0 /* SLTouchAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLTouchAuth.framework; path = SLTouchAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D48A6DBBB311BEC0475DACCA455AD11 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3E9DB3EDDD82598DC90F1ED63341465E /* Pods-SLTouchAuth_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLTouchAuth_Example-umbrella.h"; sourceTree = "<group>"; };
+		47EBBD48CBF544272632632E2C22B922 /* Pods-SLTouchAuth_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLTouchAuth_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		48B1DA4960D9277ECFBEAADC7AF7DE33 /* Pods-SLTouchAuth_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLTouchAuth_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4F0F88517627D8FFAA84A9AC89B95F29 /* SLTouchAuth.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SLTouchAuth.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55DD948FA68C5184A2899717CC473EB4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C6A04A1A1D53C9FCD3635C461E8D1F9 /* Pods-SLTouchAuth_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLTouchAuth_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		881A3223B419166212EF716EFD9906C9 /* Pods-SLTouchAuth_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLTouchAuth_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D96AE485B650F7FFAD1C917AFC8963A /* Pods-SLTouchAuth_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLTouchAuth_Tests-dummy.m"; sourceTree = "<group>"; };
+		A0CD9374641EECBBE59A35229F76AADD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A67AF51C25639B715857297076F345EB /* Pods-SLTouchAuth_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLTouchAuth_Tests-resources.sh"; sourceTree = "<group>"; };
+		A994708FA7E7BFBDF090F964013C7E4E /* Pods-SLTouchAuth_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLTouchAuth_Tests.modulemap"; sourceTree = "<group>"; };
+		AAEEB692870639CF36D642FF134A9143 /* Pods_SLTouchAuth_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SLTouchAuth_Example.framework; path = "Pods-SLTouchAuth_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB4ED5964163B4EA146738235FB2482A /* SLTouchAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLTouchAuth-prefix.pch"; sourceTree = "<group>"; };
+		C59283D63FC0E6C37A6D668BAA7F4DF7 /* Pods-SLTouchAuth_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLTouchAuth_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DAD60584267D5E0FF0A73BDAC8E1B801 /* Pods-SLTouchAuth_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLTouchAuth_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD1129BF2913309188A946D2329018FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E074A7C7ED1F974D5378663D025FA56B /* Pods-SLTouchAuth_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLTouchAuth_Example.modulemap"; sourceTree = "<group>"; };
+		E86E33C3B37DF1EA557FF57377DDDC87 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SLTouchAuth/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E9A5595539C0796688717FA546139912 /* Pods-SLTouchAuth_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLTouchAuth_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F159E045E9118511E47C7180E9A7DDF6 /* Pods-SLTouchAuth_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLTouchAuth_Example-resources.sh"; sourceTree = "<group>"; };
+		FBB85743EDD6114CC12406D9EA3E375B /* SLTouchAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLTouchAuth-umbrella.h"; sourceTree = "<group>"; };
+		FDBD483067E7AE3F8178F20E6C5E480A /* SLTouchAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLTouchAuth-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4064F55603D8B0D5F6C948CB783C58D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66643962769268FE6121246F0749103F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8307D9283AF16BF0B8D2C4119044FB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D3BA1DC05A5F08AD674A578E760537D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91779946A65B761D7052BCA7C24BF822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1AE1C8322D6F9E66F8CB22F9FC711C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4B5B6A174E2554DB918D2789F55601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAEEB692870639CF36D642FF134A9143 /* Pods_SLTouchAuth_Example.framework */,
+				047D1877251EEF14AC677329A8978D66 /* Pods_SLTouchAuth_Tests.framework */,
+				37ADEFBEB7AA4D5C7E6AE146330BADB0 /* SLTouchAuth.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58BF14E7703376E8AE6495B7AF766528 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1129BF2913309188A946D2329018FF /* Info.plist */,
+				00C9DF35D477A3683B01DBFE9048E492 /* SLTouchAuth.modulemap */,
+				235AB12F0EE1792D7A3F98B402D7DC1B /* SLTouchAuth.xcconfig */,
+				FDBD483067E7AE3F8178F20E6C5E480A /* SLTouchAuth-dummy.m */,
+				AB4ED5964163B4EA146738235FB2482A /* SLTouchAuth-prefix.pch */,
+				FBB85743EDD6114CC12406D9EA3E375B /* SLTouchAuth-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLTouchAuth";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AD24EE661D89076F2247BF28888A51CB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2C4B5B6A174E2554DB918D2789F55601 /* Products */,
+				F574B0DDCA5F9C26F45CFA9298F044C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD24EE661D89076F2247BF28888A51CB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DB25F889B5F94664EE1475A88ABA51 /* SLTouchAuth */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9DB25F889B5F94664EE1475A88ABA51 /* SLTouchAuth */ = {
+			isa = PBXGroup;
+			children = (
+				E86E33C3B37DF1EA557FF57377DDDC87 /* ReplaceMe.swift */,
+				FCCAF57DDBE4C0EF034B039E4A2BB538 /* Pod */,
+				58BF14E7703376E8AE6495B7AF766528 /* Support Files */,
+			);
+			name = SLTouchAuth;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E7D502D5FC87FC1F7024AE9E837B49E5 /* Pods-SLTouchAuth_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55DD948FA68C5184A2899717CC473EB4 /* Info.plist */,
+				A994708FA7E7BFBDF090F964013C7E4E /* Pods-SLTouchAuth_Tests.modulemap */,
+				DAD60584267D5E0FF0A73BDAC8E1B801 /* Pods-SLTouchAuth_Tests-acknowledgements.markdown */,
+				47EBBD48CBF544272632632E2C22B922 /* Pods-SLTouchAuth_Tests-acknowledgements.plist */,
+				9D96AE485B650F7FFAD1C917AFC8963A /* Pods-SLTouchAuth_Tests-dummy.m */,
+				C59283D63FC0E6C37A6D668BAA7F4DF7 /* Pods-SLTouchAuth_Tests-frameworks.sh */,
+				A67AF51C25639B715857297076F345EB /* Pods-SLTouchAuth_Tests-resources.sh */,
+				019E801405F2FF182A8400AE8F4E7CA1 /* Pods-SLTouchAuth_Tests-umbrella.h */,
+				34AE5355B9C7407F07B4A28371E5E356 /* Pods-SLTouchAuth_Tests.debug.xcconfig */,
+				0FD21C7F35189E67CEC34E832798D772 /* Pods-SLTouchAuth_Tests.release.xcconfig */,
+			);
+			name = "Pods-SLTouchAuth_Tests";
+			path = "Target Support Files/Pods-SLTouchAuth_Tests";
+			sourceTree = "<group>";
+		};
+		F0E9BFC3B3D35B6E2E9DEE31A68E2CDE /* Pods-SLTouchAuth_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A0CD9374641EECBBE59A35229F76AADD /* Info.plist */,
+				E074A7C7ED1F974D5378663D025FA56B /* Pods-SLTouchAuth_Example.modulemap */,
+				067CB507E8B544ED5B1D67EDADE09A52 /* Pods-SLTouchAuth_Example-acknowledgements.markdown */,
+				6C6A04A1A1D53C9FCD3635C461E8D1F9 /* Pods-SLTouchAuth_Example-acknowledgements.plist */,
+				881A3223B419166212EF716EFD9906C9 /* Pods-SLTouchAuth_Example-dummy.m */,
+				E9A5595539C0796688717FA546139912 /* Pods-SLTouchAuth_Example-frameworks.sh */,
+				F159E045E9118511E47C7180E9A7DDF6 /* Pods-SLTouchAuth_Example-resources.sh */,
+				3E9DB3EDDD82598DC90F1ED63341465E /* Pods-SLTouchAuth_Example-umbrella.h */,
+				48B1DA4960D9277ECFBEAADC7AF7DE33 /* Pods-SLTouchAuth_Example.debug.xcconfig */,
+				3576BC54D576305328DB22CCBC335E0B /* Pods-SLTouchAuth_Example.release.xcconfig */,
+			);
+			name = "Pods-SLTouchAuth_Example";
+			path = "Target Support Files/Pods-SLTouchAuth_Example";
+			sourceTree = "<group>";
+		};
+		F574B0DDCA5F9C26F45CFA9298F044C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0E9BFC3B3D35B6E2E9DEE31A68E2CDE /* Pods-SLTouchAuth_Example */,
+				E7D502D5FC87FC1F7024AE9E837B49E5 /* Pods-SLTouchAuth_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FCCAF57DDBE4C0EF034B039E4A2BB538 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				060F0775CD4251204D926AAC2023E010 /* LICENSE */,
+				3D48A6DBBB311BEC0475DACCA455AD11 /* README.md */,
+				4F0F88517627D8FFAA84A9AC89B95F29 /* SLTouchAuth.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15DFA4AF6166A7DFBF3A4ABB1E2AF5DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC13692B26D0CB5C1D317A655C0DEC9 /* Pods-SLTouchAuth_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4F07D1D26AD9D5D7BA292255B41EA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CF97FD34368E0BA1C33C14EE20E1E1 /* SLTouchAuth-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CCEDE074C0ACA32FE5300A9FC5E9F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FCB8CA276F8B6C406E7F59058C36437 /* Pods-SLTouchAuth_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43993C6C5C7087E3ADDFBC6021AD549F /* SLTouchAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A00F56806CABDFF85CBCC12D757058 /* Build configuration list for PBXNativeTarget "SLTouchAuth" */;
+			buildPhases = (
+				875BE10547892BC75DA364EA2502A1FA /* Sources */,
+				91779946A65B761D7052BCA7C24BF822 /* Frameworks */,
+				7E4F07D1D26AD9D5D7BA292255B41EA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLTouchAuth;
+			productName = SLTouchAuth;
+			productReference = 37ADEFBEB7AA4D5C7E6AE146330BADB0 /* SLTouchAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6382AE10520322723261AB13C66F0C54 /* Pods-SLTouchAuth_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B20A5D13C9A0FA1AB950F222F1C37E7 /* Build configuration list for PBXNativeTarget "Pods-SLTouchAuth_Tests" */;
+			buildPhases = (
+				A2D9F5CB7485653DE8BBC68159B2D412 /* Sources */,
+				8307D9283AF16BF0B8D2C4119044FB67 /* Frameworks */,
+				15DFA4AF6166A7DFBF3A4ABB1E2AF5DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BBE0202C2D359D8A819027817A67E60 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLTouchAuth_Tests";
+			productName = "Pods-SLTouchAuth_Tests";
+			productReference = 047D1877251EEF14AC677329A8978D66 /* Pods_SLTouchAuth_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED5E9BF5A3AF0380C4C78B5B31438EF2 /* Pods-SLTouchAuth_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D10FAA9C8B1D03F51BC67C0145BCA881 /* Build configuration list for PBXNativeTarget "Pods-SLTouchAuth_Example" */;
+			buildPhases = (
+				D035AC22F2280AE26528EEC633E6A7EC /* Sources */,
+				4064F55603D8B0D5F6C948CB783C58D1 /* Frameworks */,
+				A7CCEDE074C0ACA32FE5300A9FC5E9F9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC33A2EBB00A5ACEBC0B244D7C0CAD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SLTouchAuth_Example";
+			productName = "Pods-SLTouchAuth_Example";
+			productReference = AAEEB692870639CF36D642FF134A9143 /* Pods_SLTouchAuth_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C4B5B6A174E2554DB918D2789F55601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5E9BF5A3AF0380C4C78B5B31438EF2 /* Pods-SLTouchAuth_Example */,
+				6382AE10520322723261AB13C66F0C54 /* Pods-SLTouchAuth_Tests */,
+				43993C6C5C7087E3ADDFBC6021AD549F /* SLTouchAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		875BE10547892BC75DA364EA2502A1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAE84FAED73BD67AB6F99671B034DB9A /* ReplaceMe.swift in Sources */,
+				53FF62B917EDB1327E0F080FF678CAA6 /* SLTouchAuth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D9F5CB7485653DE8BBC68159B2D412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD42E889B652AF1B679DDF6AA43F33D /* Pods-SLTouchAuth_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D035AC22F2280AE26528EEC633E6A7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E28CFD8AD9888AC1FCD65D9997FE70DE /* Pods-SLTouchAuth_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BBE0202C2D359D8A819027817A67E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SLTouchAuth_Example";
+			target = ED5E9BF5A3AF0380C4C78B5B31438EF2 /* Pods-SLTouchAuth_Example */;
+			targetProxy = 45A33CF613205E03AECA65BC1D4BB574 /* PBXContainerItemProxy */;
+		};
+		8BC33A2EBB00A5ACEBC0B244D7C0CAD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SLTouchAuth;
+			target = 43993C6C5C7087E3ADDFBC6021AD549F /* SLTouchAuth */;
+			targetProxy = BE9D08B9891E73E82BE9DFDCDF1CAF56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		235A4F38F38D0093C68CE93A1BF8A6AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235AB12F0EE1792D7A3F98B402D7DC1B /* SLTouchAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLTouchAuth/SLTouchAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLTouchAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLTouchAuth/SLTouchAuth.modulemap";
+				PRODUCT_MODULE_NAME = SLTouchAuth;
+				PRODUCT_NAME = SLTouchAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8D80229E9A65099B9B742FA5B18A7BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34AE5355B9C7407F07B4A28371E5E356 /* Pods-SLTouchAuth_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLTouchAuth_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLTouchAuth_Tests/Pods-SLTouchAuth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A124EA1CA4BD2E0568EDADF25F4C1C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B1DA4960D9277ECFBEAADC7AF7DE33 /* Pods-SLTouchAuth_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLTouchAuth_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLTouchAuth_Example/Pods-SLTouchAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6EE0C7133EBAD086426037E7D51517F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235AB12F0EE1792D7A3F98B402D7DC1B /* SLTouchAuth.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SLTouchAuth/SLTouchAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SLTouchAuth/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SLTouchAuth/SLTouchAuth.modulemap";
+				PRODUCT_MODULE_NAME = SLTouchAuth;
+				PRODUCT_NAME = SLTouchAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BABD728D03A5099422213FE4E36B1E46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD21C7F35189E67CEC34E832798D772 /* Pods-SLTouchAuth_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLTouchAuth_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLTouchAuth_Tests/Pods-SLTouchAuth_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F96ED97C35F4AA7EFF6A664EC98B7C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3576BC54D576305328DB22CCBC335E0B /* Pods-SLTouchAuth_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SLTouchAuth_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SLTouchAuth_Example/Pods-SLTouchAuth_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A00F56806CABDFF85CBCC12D757058 /* Build configuration list for PBXNativeTarget "SLTouchAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6EE0C7133EBAD086426037E7D51517F /* Debug */,
+				235A4F38F38D0093C68CE93A1BF8A6AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B20A5D13C9A0FA1AB950F222F1C37E7 /* Build configuration list for PBXNativeTarget "Pods-SLTouchAuth_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D80229E9A65099B9B742FA5B18A7BB3 /* Debug */,
+				BABD728D03A5099422213FE4E36B1E46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D10FAA9C8B1D03F51BC67C0145BCA881 /* Build configuration list for PBXNativeTarget "Pods-SLTouchAuth_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A124EA1CA4BD2E0568EDADF25F4C1C24 /* Debug */,
+				F96ED97C35F4AA7EFF6A664EC98B7C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

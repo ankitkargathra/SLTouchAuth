@@ -1,0 +1,16 @@
+PODS:
+  - SLTouchAuth (0.1.0)
+
+DEPENDENCIES:
+  - SLTouchAuth (from `../`)
+
+EXTERNAL SOURCES:
+  SLTouchAuth:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SLTouchAuth: 4f202516a9a7d42d47122488895d55c508f1d1a6
+
+PODFILE CHECKSUM: d4ef418be5077206037040e339e4d51ab53972bb
+
+COCOAPODS: 1.5.3
